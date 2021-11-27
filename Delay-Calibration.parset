@@ -58,8 +58,8 @@
 ##########################################################
 
 ## Station combination
-! phaseup_command               = {ST001:'CS*'} ## 'CS*' for all core stations (or select stations you want to use)
-! filter_command                = '!CS*&&*' ## remove the core stations after combination
+! phaseup_command               = {ST001:'CS*'} ## 'CS*' for all core stations (or select stations you want to use). For the superterp use {ST001:'CS00[2-7]*'} 
+! filter_command                = '!CS*&&*' ## remove the core stations after combination. For the superterp use '!CS00[2-7]*&&*'
 
 ## job and output directories
 ! job_directory                 = input.output.job_directory 
